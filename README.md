@@ -36,10 +36,10 @@ We implement the our methodology  combining multi-modal backbone, as follows:
 # Train and Validation
 
 After modality-generation Run train_dgcnn.py and train_mvcnn.py seperately. The checkpoints are created for the both runs will be in the cache ckpts folder. 80% data in the train folder is used for traning and the rest is used for validation
-
+``` bash
 python train_dgcnn.py
 python train_mvcnn.py
-
+```
 
 ## Generate Distance Matrix
 Run the get_mat.py by loading the checkpoints of above mentioned tasks:
