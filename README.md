@@ -17,7 +17,7 @@ By default, the datasets are placed under the "data" folder in the root director
 │        ├── cdist.txt
 │        ├── ckpt.meta
 │        └── DGCNN.pth
-|        └──MVCNN.pth
+│        └──MVCNN.pth
 └── data
     ├── OS-MN40/
     └── OS-MN40-Miss/
