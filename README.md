@@ -48,7 +48,7 @@ python get_mat.py
 ```
 The generated cdist.txt can be found in the same folder of the specified checkpoints. 
 
-Pretrained check points on OS-MN40-Miss data can be found here.
+Pretrained check points on OS-MN40-Miss data can be found [here](https://drive.google.com/drive/folders/1RbmZUXuq0XBowcHGYQM3R_OFkAlYVVFy?usp=sharing).
 Move DGCNN.pth and MVCNN.pth to cache/ckpts directory.
 
 
