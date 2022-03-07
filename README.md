@@ -2,7 +2,7 @@
 
 # Setup
 ## Install Related Packages
-This code is developed in Python 3.8.12 and pytorch1.8.1+cu102. You can install the required packages as follows.
+This code is developed in Python 3.7 and pytorch1.10.2+cu102. You can install the required packages as follows.
 ``` bash 
 conda create -n shrec2022 python=3.7
 conda activate shrec2022
