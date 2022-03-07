@@ -26,7 +26,7 @@ By default, the datasets are placed under the "data" folder in the root director
 With help of pymesh-lab and open3d libraries we generated multi-view images,pointcloud,mesh and voxels for [OS-MN40-Miss] data.
 
 # To generate modalities
-run modality-generation.ipynb notebook file in data folder.
+Move modality-generation.ipynb and binvox file into the data folder and run the modality-generation notebook.
 
 ## Models and implementation
 We implement the our methodology  combining multi-modal backbone, as follows:
