@@ -48,7 +48,7 @@ python get_mat.py
 ```
 The generated cdist.txt can be found in the same folder of the specified checkpoints. 
 
-to load checkpoints directly  for retrival  the train_dgcnn and train_mvcnn checkpoints  are stored in the pretrained-checkpoint folder move DGCNN.pth and MVCNN.pth to cache/ckpts directory.
+To load checkpoints directly for retrival, the train_dgcnn and train_mvcnn checkpoints are stored in the pretrained-checkpoint folder. Move DGCNN.pth and MVCNN.pth to cache/ckpts directory.
 
 *our submission file of distance matric for OS-MN40-MIss track can be found in distancematrix folder
 
