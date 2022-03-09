@@ -8,7 +8,7 @@ import torch.nn.functional as F
 class FeatureNet(nn.Module):
     def __init__(self, pretrained=False):
         super(FeatureNet, self).__init__()
-        self.base_model = torchvision.models.resnet18(pretrained=pretrained)
+        self.base_model = torchvision.models.resnet34(pretrained=pretrained)
         self.feature_len = 512
         self.features = nn.Sequential(*list(self.base_model.children())[:-1])
 
